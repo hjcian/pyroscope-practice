@@ -5,12 +5,12 @@
 
 ## Start Pyroscope Server
 
-**1. docker**
+**Option 1. docker**
 ```bash
 docker run -it -p 4040:4040 pyroscope/pyroscope:latest server
 ```
 
-**2. macos**
+**Option 2. macos**
 ```bash
 brew install pyroscope-io/brew/pyroscope
 brew services start pyroscope
